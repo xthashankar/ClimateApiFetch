@@ -21,7 +21,7 @@ fetch(URL)
 .then(function(climatedata){
     loc.innerHTML=climatedata.name;
     icon=climatedata.weather[0].icon
-    image.src='http://openweathermap.org/img/wn/'+icon+'@2x.png';
+    image.src='https://openweathermap.org/img/wn/'+icon+'@2x.png';
     temp.innerHTML=Math.round(climatedata.main.temp-CONVERT_DEGREE);
     climate.innerHTML=climatedata.weather[0].main;
     type.innerHTML='"'+climatedata.weather[0].description+'"';
