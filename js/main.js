@@ -1,6 +1,6 @@
 let TOKKEN='50fbc4a3c3710837144c3ed1585bc269'
 let LOCATION='KATHMANDU'
-let URL='http://api.openweathermap.org/data/2.5/weather?q='+LOCATION+'&appid='+TOKKEN
+let URL='https://api.openweathermap.org/data/2.5/weather?q='+LOCATION+'&appid='+TOKKEN
 let CONVERT_DEGREE=273.15
 
 let loc=document.getElementById('Location');
